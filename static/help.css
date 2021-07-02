@@ -1,0 +1,103 @@
+h3{color: white;}
+
+
+body
+{
+	background-image: url("back1.jpg");
+
+}
+
+.data
+{
+	color:black;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: x-large;
+	background-color:rgba(196, 181, 174,0.5);
+ 
+
+}
+th
+{
+	text-decoration: underline;
+	text-decoration-style: double;
+	
+}
+
+.spanning
+{
+	text-align: center;
+	
+}
+
+		button{ margin-top: 0px;
+			    margin-left: 20px;
+				background-color: Black;
+				border: 1px solid white;
+			    color: white; 
+
+			}
+
+		button:hover
+			{
+				color: rgb(255,0,159);
+			}
+		.button {
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3971bf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+
+}
+
+.button:hover {background-color: #bdd3f2}
+a:hover {color: rgb(255,0,159);}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+#header {
+	height: 80px;
+	font-size: large;
+padding: 0.3em;
+background: Black;
+
+}
+	#logo{
+
+			width: 11%;
+			border-radius: 120px 120px 120px;
+			border-color: 6px solid black;
+		}
+
+		#footer {
+      
+			padding: 0.8em;
+			background: Black;
+			height: 35px;
+			font-size: small;
+			color: white;
+			text-align: center;
+			padding-top: 10px;
+			
+		  }
+          .text{
+            width: 100%;
+            margin-top: 15px;
+            text-align:center;
+             font-family: 'Times',Times New Roman;
+             font-size: 40px;
+       color: black;
+          }
+       
+
+		  

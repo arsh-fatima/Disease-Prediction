@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Intensity result</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      </head>
+      <style>
+        body{
+            background-image: url("/static/back1.jpg");
+            background-color: #e6f5fc !important;
+        }
+        h1{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+        #mainHeading2{
+            color: white;
+            font-size: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .jumbotron{
+        font-size: 1px; 
+        background-color: black !important;
+        }
+        a{
+         color: white;
+        }
+      </style>
+
+<body>
+    <center>
+        <div class="jumbotron text-center">
+        <h1 id= "mainHeading2">  PREDICTION:  </h1>
+        </div>
+    
+    {%if data == 'high'%}
+    <h1>Your disease intensity maybe high.</h1>  
+
+    {%elif data == 'low'%}
+    <h1>Your disease intensity maybe low.</h1>  
+
+    {%elif data == 'medium'%}
+    <h1>Your disease intensity maybe medium.</h1>
+
+    {%else%}
+    <h1>We are unsure about the intensity of your disease.</h1>
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+

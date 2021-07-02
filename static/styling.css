@@ -1,0 +1,37 @@
+.formContainer {
+    width: 300px;
+    clear: both;
+  }
+
+.formContainer input {
+    width: 100%;
+    clear: both;
+  }
+
+#intense, #select, #severe, #reg, #gen, #seas, #dis{
+    width:300px;   
+    height: 27px;
+}
+
+#submitButton{
+    position: relative;
+    top: 10px;
+    color: white;
+    background-color: darkblue;
+    height: 30px;
+}
+
+.jumbotron{
+    font-size: 1px; 
+    background-color: black !important;
+}
+
+#mainHeading{
+    font-size: 50px;  
+    color: white;
+}
+body{
+    background-image: url("/static/back1.jpg");
+    background-repeat: repeat-y;
+    color: black !important;
+}

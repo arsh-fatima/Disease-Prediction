@@ -1,0 +1,497 @@
+<html>
+    <head>
+        <title>Disease result</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      </head>
+      <style>
+        body{
+            background-image: url("/static/back1.jpg");
+            background-color: #e6f5fc !important;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color: white;
+        }
+        #mainHeading2{
+            color: white;
+            font-size: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .jumbotron{
+        font-size: 1px; 
+        background-color: black !important;
+        }
+        a{
+         color: white;
+        }
+      </style>
+
+<body>
+    <center>
+        <div class="jumbotron text-center">
+        <h1 id= "mainHeading2">  PREDICTION:  </h1>
+        </div>
+    
+    {%if data == 'influenza'%}
+    <h1>You have influenza</h1>  
+
+    {%elif data == 'hypercholesterolemia'%}
+    <h1>You have hypercholesterolemia</h1>  
+
+    {%elif data == 'gastritis'%}
+    <h1>You have gastritis</h1>
+
+    {%elif data == 'epilepsy'%}
+    <h1>You have epilepsy</h1>
+
+    {%elif data == 'insufficiency re162l'%}
+    <h1>You have insufficiency re162l</h1>
+
+    {%elif data == 'dehydration'%}
+    <h1>You have dehydration</h1>
+
+    {%elif data == 'hypothyroidism'%}
+    <h1>You have hypothyroidism</h1>
+
+    {%elif data == 'hernia hiatal'%}
+    <h1>You have hernia hiatal</h1>
+
+    {%elif data == 'fibroid tumor'%}
+    <h1>You have fibroid tumor</h1>
+
+    {%elif data == 'deglutition disorder'%}
+    <h1>You have deglutition disorder</h1>
+
+    {%elif data == 'osteoporosis'%}
+    <h1>You have osteoporosis</h1>
+
+    {%elif data == 'chronic alcoholic intoxication'%}
+    <h1>You have chronic alcoholic intoxication</h1>
+
+    {%elif data == 'asthma'%}
+    <h1>You have asthma</h1>
+
+    {%elif data == 'sepsis (invertebrate)'%}
+    <h1>You have sepsis (invertebrate)</h1>
+
+    {%elif data == 'paranoia'%}
+    <h1>You have paranoia</h1>
+
+    {%elif data == 'ileus'%}
+    <h1>You have ileus</h1>
+
+    {%elif data == 'neoplasm'%}
+    <h1>You have neoplasm</h1>
+
+    {%elif data == 'obesity morbid'%}
+    <h1>You have obesity morbid</h1>
+
+    {%elif data == 'primary malig162nt neoplasm'%}
+    <h1>You have primary malig162nt neoplasm</h1>
+
+    {%elif data == 'failure heart'%}
+    <h1>You have failure heart</h1>
+
+    {%elif data == 'malig162nt neoplasm of breast'%}
+    <h1>You have malig162nt neoplasm of breast</h1>
+
+    {%elif data == 'tonic-clonic epilepsy'%}
+    <h1>You have tonic-clonic epilepsy</h1>
+
+    {%elif data == 'transient ischemic attack'%}
+    <h1>You have transient ischemic attack</h1>
+
+    {%elif data == 'malig162nt neoplasm of prostate'%}
+    <h1>You have malig162nt neoplasm of prostate</h1>
+
+    {%elif data == 'embolism pulmo162ry'%}
+    <h1>You have embolism pulmo162ry</h1>
+
+    {%elif data == 'tricuspid valve insufficiency'%}
+    <h1>You have tricuspid valve insufficiency</h1>
+
+    {%elif data == 'respiratory failure'%}
+    <h1>You have respiratory failure</h1>
+
+    {%elif data == 'degenerative polyarthritis'%}
+    <h1>You have degenerative polyarthritis</h1>
+
+    {%elif data == 'aphasia'%}
+    <h1>You have aphasia</h1>
+
+    {%elif data == 'neoplasm metastasis'%}
+    <h1>You have neoplasm metastasis</h1>
+
+    {%elif data == 'malig162nt tumor of colon'%}
+    <h1>You have malig162nt tumor of colon</h1>
+
+    {%elif data == 'lymphoma'%}
+    <h1>You have lymphoma</h1>
+
+    {%elif data == 'anemia'%}
+    <h1>You have anemia</h1>
+
+    {%elif data == 'chronic obstructive airway disease'%}
+    <h1>You have chronic obstructive airway disease</h1>
+
+    {%elif data == 'sickle cell anemia'%}
+    <h1>You have sickle cell anemia</h1>
+
+    {%elif data == 'coro162ry arteriosclerosis'%}
+    <h1>You have coro162ry arteriosclerosis</h1>
+
+    {%elif data == 'cholecystitis'%}
+    <h1>You have cholecystitis</h1>
+
+    {%elif data == 'psychotic disorder'%}
+    <h1>You have psychotic disorder</h1>
+
+    {%elif data == 'thrombus'%}
+    <h1>You have thrombus</h1>
+
+    {%elif data == 'chronic kidney failure'%}
+    <h1>You have chronic kidney failure</h1>
+
+    {%elif data == 'depressive disorder'%}
+    <h1>You have depressive disorder</h1>
+
+    {%elif data == 'myocardial infarction'%}
+    <h1>You have myocardial infarction</h1>
+
+    {%elif data == 'obesity'%}
+    <h1>You have obesity</h1>
+
+    {%elif data == 'infection uri162ry tract'%}
+    <h1>You have infection uri162ry tract</h1>
+
+    {%elif data == 'tachycardia sinus'%}
+    <h1>You have tachycardia sinus</h1>
+
+    {%elif data == 'gout'%}
+    <h1>You have gout</h1>
+
+    {%elif data == 'hyperglycemia'%}
+    <h1>You have hyperglycemia</h1>
+
+    {%elif data == 'diverticulosis'%}
+    <h1>You have diverticulosis</h1>
+
+    {%elif data == 'failure kidney'%}
+    <h1>You have failure kidney</h1>
+
+    {%elif data == 'schizophrenia'%}
+    <h1>You have schizophrenia</h1>
+
+    {%elif data == 'decubitus ulcer'%}
+    <h1>You have decubitus ulcer</h1>
+
+    {%elif data == 'encephalopathy'%}
+    <h1>You have encephalopathy</h1>
+
+    {%elif data == 'affect labile'%}
+    <h1>You have affect labile</h1>
+
+    {%elif data == 'carcinoma prostate'%}
+    <h1>You have carcinoma prostate</h1>
+
+    {%elif data == 'incontinence'%}
+    <h1>You have incontinence</h1>
+
+    {%elif data == 'hyperbilirubinemia'%}
+    <h1>You have hyperbilirubinemia</h1>
+
+    {%elif data == 'paroxysmal dyspnea'%}
+    <h1>You have paroxysmal dyspnea</h1>
+
+    {%elif data == 'bipolar disorder'%}
+    <h1>You have bipolar disorder</h1>
+
+    {%elif data == 'hepatitis'%}
+    <h1>You have hepatitis</h1>
+
+    {%elif data == 'pericardial effusion body substance'%}
+    <h1>You have pericardial effusion body substance</h1>
+
+    {%elif data == 'adhesion'%}
+    <h1>You have adhesion</h1>
+
+    {%elif data == 'biliary calculus'%}
+    <h1>You have biliary calculus</h1>
+
+    {%elif data == 'endocarditis'%}
+    <h1>You have endocarditis</h1>
+
+    {%elif data == 'acquired immuno-deficiency syndrome'%}
+    <h1>You have acquired immuno-deficiency syndrome</h1>
+
+    {%elif data == 'pneumothorax'%}
+    <h1>You have pneumothorax</h1>
+
+    {%elif data == 'accident cerebrovascular'%}
+    <h1>You have accident cerebrovascular</h1>
+
+    {%elif data == 'confusion'%}
+    <h1>You have confusion</h1>
+
+    {%elif data == 'candidiasis'%}
+    <h1>You have candidiasis</h1>
+
+    {%elif data == 'anxiety state'%}
+    <h1>You have anxiety state</h1>
+
+    {%elif data == 'cirrhosis'%}
+    <h1>You have cirrhosis</h1>
+
+    {%elif data == 'pancytopenia'%}
+    <h1>You have pancytopenia</h1>
+
+    {%elif data == 'oral candidiasis'%}
+    <h1>You have oral candidiasis</h1>
+
+    {%elif data == 'diverticulitis'%}
+    <h1>You have diverticulitis</h1>
+
+    {%elif data == 'spasm bronchial'%}
+    <h1>You have spasm bronchial</h1>
+
+    {%elif data == 'ulcer peptic'%}
+    <h1>You have ulcer peptic</h1>
+
+    {%elif data == 'depression mental'%}
+    <h1>You have depression mental</h1>
+
+    {%elif data == 'emphysema pulmo162ry'%}
+    <h1>You have emphysema pulmo162ry</h1>
+
+    {%elif data == 'hypoglycemia'%}
+    <h1>You have hypoglycemia</h1>
+
+    {%elif data == 'dependence'%}
+    <h1>You have dependence</h1>
+
+    {%elif data == 'osteomyelitis'%}
+    <h1>You have osteomyelitis</h1>
+
+    {%elif data == 'hemorrhoids'%}
+    <h1>You have hemorrhoids</h1>
+
+    {%elif data == 'primary carcinoma of the liver cells'%}
+    <h1>You have primary carcinoma of the liver cells</h1>
+
+    {%elif data == 'pyelonephritis'%}
+    <h1>You have pyelonephritis</h1>
+
+    {%elif data == 'pancreatitis'%}
+    <h1>You have pancreatitis</h1>
+
+    {%elif data == 'cholelithiasis'%}
+    <h1>You have cholelithiasis</h1>
+
+    {%elif data == 'cardiomyopathy'%}
+    <h1>You have cardiomyopathy</h1>
+
+    {%elif data == 'Pneumocystis carinii pneumonia'%}
+    <h1>You have Pneumocystis carinii pneumonia</h1>
+
+    {%elif data == 'carcinoma colon'%}
+    <h1>You have carcinoma colon</h1>
+
+    {%elif data == 'edema pulmo162ry'%}
+    <h1>You have edema pulmo162ry</h1>
+
+    {%elif data == 'carcinoma breast'%}
+    <h1>You have carcinoma breast</h1>
+
+    {%elif data == 'hemiparesis'%}
+    <h1>You have hemiparesis</h1>
+
+    {%elif data == 'mitral valve insufficiency'%}
+    <h1>You have mitral valve insufficiency</h1>
+
+    {%elif data == 'peripheral vascular disease'%}
+    <h1>You have peripheral vascular disease</h1>
+
+    {%elif data == 'tonic-clonic seizures'%}
+    <h1>You have tonic-clonic seizures</h1>
+
+    {%elif data == 'effusion pericardial'%}
+    <h1>You have effusion pericardial</h1>
+
+    {%elif data == 'thrombocytopaenia'%}
+    <h1>You have thrombocytopaenia</h1>
+
+    {%elif data == 'adenocarcinoma'%}
+    <h1>You have adenocarcinoma</h1>
+
+    {%elif data == 'failure heart congestive'%}
+    <h1>You have failure heart congestive</h1>
+
+    {%elif data == 'exanthema'%}
+    <h1>You have exanthema</h1>
+
+    {%elif data == 'ischemia'%}
+    <h1>You have ischemia</h1>
+
+    {%elif data == 'hypertension pulmo162ry'%}
+    <h1>You have hypertension pulmo162ry</h1>
+
+    {%elif data == 'infection'%}
+    <h1>You have infection</h1>
+
+    {%elif data == 'cellulitis'%}
+    <h1>You have cellulitis</h1>
+
+    {%elif data == 'lymphatic diseases'%}
+    <h1>You have lymphatic diseases</h1>
+
+    {%elif data == 'gastroenteritis'%}
+    <h1>You have gastroenteritis</h1>
+
+    {%elif data == 'parkinson disease'%}
+    <h1>You have parkinson disease</h1>
+
+    {%elif data == 'hernia'%}
+    <h1>You have hernia</h1>
+
+    {%elif data == 'kidney disease'%}
+    <h1>You have kidney disease</h1>
+
+    {%elif data == 'colitis'%}
+    <h1>You have colitis</h1>
+
+    {%elif data == 'deep vein thrombosis'%}
+    <h1>You have deep vein thrombosis</h1>
+
+    {%elif data == 'perso162lity disorder'%}
+    <h1>You have perso162lity disorder</h1>
+
+    {%elif data == 'hyperlipidemia'%}
+    <h1>You have hyperlipidemia</h1>
+
+    {%elif data == 'pneumonia'%}
+    <h1>You have pneumonia</h1>
+
+    {%elif data == 'gastroesophageal reflux disease'%}
+    <h1>You have gastroesophageal reflux disease</h1>
+
+    {%elif data == 'pneumonia aspiration'%}
+    <h1>You have pneumonia aspiration</h1>
+
+    {%elif data == 'stenosis aortic valve'%}
+    <h1>You have stenosis aortic valve</h1>
+
+    {%elif data == 'hypertensive disease'%}
+    <h1>You have hypertensive disease</h1>
+
+    {%elif data == 'glaucoma'%}
+    <h1>You have glaucoma</h1>
+
+    {%elif data == 'septicemia'%}
+    <h1>You have septicemia</h1>
+
+    {%elif data == 'bronchitis'%}
+    <h1>You have bronchitis</h1>
+
+    {%elif data == 'delusion'%}
+    <h1>You have delusion</h1>
+
+    {%elif data == 'upper respiratory infection'%}
+    <h1>You have upper respiratory infection</h1>
+
+    {%elif data == 'dementia'%}
+    <h1>You have dementia</h1>
+
+    {%elif data == 'ketoacidosis diabetic '%}
+    <h1>You have ketoacidosis diabetic </h1>
+
+    {%elif data == 'manic disorder'%}
+    <h1>You have manic disorder</h1>
+
+    {%elif data == 'suicide attempt'%}
+    <h1>You have suicide attempt</h1>
+
+    {%elif data == 'hiv infections'%}
+    <h1>You have hiv infections</h1>
+
+    {%elif data == 'benign prostatic hypertrophy'%}
+    <h1>You have benign prostatic hypertrophy</h1>
+
+    {%elif data == 'HIV'%}
+    <h1>You have HIV</h1>
+
+    {%elif data == 'bacteremia'%}
+    <h1>You have bacteremia</h1>
+
+    {%elif data == 'neutropenia'%}
+    <h1>You have neutropenia</h1>
+
+    {%elif data == 'hepatitis B'%}
+    <h1>You have hepatitis B</h1>
+
+    {%elif data == 'hepatitis C'%}
+    <h1>You have hepatitis C</h1>
+
+    {%elif data == 'coro162ry heart disease'%}
+    <h1>You have coro162ry heart disease</h1>
+
+    {%elif data == 'carcinoma of lung'%}
+    <h1>You have carcinoma of lung</h1>
+
+    {%elif data == 'arthritis'%}
+    <h1>You have arthritis</h1>
+
+    {%elif data == 'malig162nt neoplasm of lung'%}
+    <h1>You have malig162nt neoplasm of lung</h1>
+
+    {%elif data == 'carcinoma'%}
+    <h1>You have carcinoma</h1>
+
+    {%elif data == 'delirium'%}
+    <h1>You have delirium</h1>
+
+    {%elif data == 'melanoma'%}
+    <h1>You have melanoma</h1>
+
+    {%elif data == 'kidney failure acute'%}
+    <h1>You have kidney failure acute</h1>
+
+    {%elif data == 'diabetes'%}
+    <h1>You have diabetes</h1>
+
+    {%elif data == 'systemic infection'%}
+    <h1>You have systemic infection</h1>
+
+    {%elif data == 'malig162nt neoplasms'%}
+    <h1>You have malig162nt neoplasms</h1>
+
+    {%elif data == 'neuropathy'%}
+    <h1>You have neuropathy</h1>
+
+    {%elif data == 'overload fluid'%}
+    <h1>You have overload fluid</h1>
+
+    {%elif data == 'migraine disorders'%}
+    <h1>You have migraine disorders</h1>
+
+    {%else%}
+    <h1>You might have some other disease which is not present in our records.</h1>
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+
